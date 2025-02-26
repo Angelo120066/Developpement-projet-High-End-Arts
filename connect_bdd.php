@@ -3,7 +3,7 @@
     $serveur = "localhost";
     $utilisateur = "root"; // Nom d'utilisateur MySQL
     $mot_de_passe = ""; // Mot de passe MySQL
-    $base_de_donnees = "use forum";     // Nom de la base de données
+    $base_de_donnees = "forum";     // Nom de la base de données
 
     // Création de la connexion
     $connexion = new mysqli($serveur, $utilisateur, $mot_de_passe, $base_de_donnees);
