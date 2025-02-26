@@ -1,0 +1,143 @@
+/* Importation des polices Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb, orange); 
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Arrière-plan dynamique */
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('images/background-image.jpg') center/cover no-repeat;
+    filter: blur(8px) brightness(0.7);
+    z-index: -1;
+}
+
+/* Conteneur principal */
+#formulaire_inscription {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    color: #fff;
+    animation: slideIn 1s ease;
+}
+
+#logo {
+    width: 60px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* Champs d'entrée */
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px 40px 12px 10px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #fff;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.input-container input::placeholder {
+    color: #ddd;
+}
+
+.input-container i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ddd;
+}
+
+/* Checkbox */
+#case-a-cocher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+#case-a-cocher input {
+    margin-right: 10px;
+}
+
+/* Bouton principal */
+.btn-submit {
+    background: linear-gradient(90deg, #6a11cb, #2575fc);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+}
+
+.btn-submit:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(106, 17, 203, 0.5);
+}
+
+/* Boutons sociaux */
+.social-btn {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.google-btn {
+    background-color: #db4437;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+}
+
+.social-btn:hover {
+    transform: scale(1.05);
+}

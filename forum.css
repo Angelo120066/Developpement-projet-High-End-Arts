@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+*img {
+    object-fit: cover;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+header {
+    width: 100%;
+    height: 100px;
+    /* background-color: aqua;   */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    margin-top: 2%;
+}
+
+#logo {
+    height: 100px;
+    margin-left: -100px;
+    object-fit: cover;
+}
+
+#photo-profil-utilisateurs {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 1200px;
+    object-fit: cover;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 105vh;
+    background-image: url("Angelo images/portrait-de-femme-abstraite-moderne.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5; /* Adjust the value to set the desired opacity */
+    z-index: -1; /* Ensure the background image stays behind the main content */
+}
+
+/* #section-27 {
+    width: 100%;
+    height: 1000px;
+    background-color: transparent;
+} */
+
+#partie-haut {
+    width: 70%;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 5%;
+}
+
+#logo-3 {
+    width: 30%;
+    height: 50px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logos {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    object-fit: cover;
+}
+
+.logos {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    object-fit: cover;
+}
+
+#partie-gauche {
+    width: 20%;
+    height: 600px;
+    /* background-color: lavender; */
+    position: relative;
+    top: 250px;
+    left: 50px;
+    float: left;
+}
+
+#profil-image-text {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+#profil-image-text h4 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.image-text {
+    width: 100%;
+    height: 90px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.images-partie-gauche {
+    width: 30%;
+    height: 70px;
+    /* background-color: crimson; */
+    object-fit: cover;
+}
+
+#profil-images {
+    width: 100%;
+    height: 210px;
+    background-color: white;
+    margin-top: 5%;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+#profil-images h4 {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#profil-image-9 {
+    width: 100%;
+    height: 170px;
+    /* background-color: coral; */
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 60px 60px 60px ;
+
+}
+
+.images-profils {
+    width: 50px;
+    height: 50px;
+    /* background-color: crimson; */
+    border-radius: 50%;
+    margin-left: 15%;
+    object-fit: cover;
+}
+
+#partie-central {
+    width: 50%;
+    height: 700px;
+    /* background-color: deeppink; */
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 470px;
+}
+
+#image-complementation-text {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#image-profil-utilisateur {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#partie-central-input {
+    width: 90%;
+    height: 30px;
+}
+
+#logos-appareil-utiliser {
+    width: 30%;
+    height: 40px;
+    /* background-color: bisque; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-appareil {
+    width: 20px;
+    height: 20px;
+    /* background-color: crimson; */
+    /* border-radius: 50%; */
+    object-fit: cover;
+}
+
+#text-barre-recherche {
+    width: 100%;
+    height: 60px;
+    /* background-color: darkgray; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#text-liens {
+    width: 20%;
+    height: 50px;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#barre-recherche {
+    width: 25%;
+    height: 30px;
+    margin-left: 500px;
+}
+
+#partie-publier {
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+#identifications {
+    width: 100%;
+    height: 60px;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#profil-identifications {
+    width: 20%;
+    height: 50px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -20px;
+}
+
+#image-profile {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#trois-petit-point {
+    width: 5%;
+    height: 50px;
+    /* background-color: azure; */
+    margin-left: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fi-bs-menu-dots{
+    font-size: 30px;
+}
+
+#image-partager {
+    width: 70%;
+    height: 350px;
+    /* background-color: aqua; */
+    margin-left: 150px;
+    object-fit: cover;
+}
+
+#like-commentaires {
+    width: 30%;
+    height: 50px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#likes {
+    width: 35%;
+    height: 35px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.fi-ss-social-network {
+    font-size: 30px;
+    /* background-color: crimson;   */
+}
+
+#commentaires {
+    width: 50%;
+    height: 35px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.fi-rr-comment-alt-dots {
+    font-size: 30px;
+    height: 30px;
+    /* background-color: crimson; */
+    
+}
+
+#partie-commentaires {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#identifications-text {
+    width: 70%;
+    height: 100px;
+    /* background-color: coral; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#identifications-profil {
+    width: 20%;
+    min-height: 50px;
+    /* background-color: deeppink; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -100px;
+}
+
+.fi-rr-circle-user {
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#commentaire-input {
+    width: 50%;
+    height: 30px;
+    margin-left: -450px;
+    margin-top: 65px;
+}
+
+#commentaire-troit-petit-point {
+    width: 10%;
+    height: 50px;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+#partie-droit {
+    width: 15%;
+    height: 700px;
+    /* background-color: darkseagreen; */
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 1465px;
+}
+
+#partie-1-de-la-partie-droit {
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+#partie-1-de-la-partie-droit h4 {
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+#image-1er-partie {
+    width: 70%;
+    height: 150px;
+    /* background-color: crimson; */
+    margin-left: 45px;
+    margin-top: 5%;
+    object-fit: contain;
+}
+
+#partie-1-de-la-partie-droit p {
+    text-align: center;
+    padding: 3%;
+}
+
+#partie-2-de-la-partie-droite {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    margin-top: 3%;
+    border-radius: 20px;
+}
+
+#partie-2-de-la-partie-droite h4 {
+    margin-left: 5%;
+    padding-top: 5%;
+}
+
+.identifications-2em-partie {
+    width: 100%;
+    height: 58px;
+    /* background-color: antiquewhite; */
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-identifications {
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    border-radius: 50%;
+    object-fit: cover;
+}

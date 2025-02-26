@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    background-color: #f4f4f9; /* Couleur de fond douce */
+    color: #333; /* Couleur du texte principal */
+    font-family: 'Montserrat', sans-serif; /* Typographie moderne */
+}
+
+*img {
+    object-fit: cover;
+}
+
+header {
+    width: 100%;
+    height: 130px;
+    /* background-color: beige; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#logo {
+    height: 100px;
+    margin-left: 20px; 
+    object-fit: cover;
+    /* position: absolute;  */
+}
+
+.navbar {
+    width: 1.5%;
+    height: 10%;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+    /* position: absolute; */
+}
+
+.nav-list {
+    background-color: chartreuse;
+    list-style: none;
+    padding: 0;
+    /* display: flex;*/
+}
+
+.nav-list li {
+    background-color: antiquewhite;
+    margin: 0 15px;
+}
+
+.nav-list a {
+    background-color: burlywood;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-humburger {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    height: 4px;
+    width: 25px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    height: max-content;
+}
+
+#section-10 {
+    width: 100%;
+    height: 1100px;
+    /* background-color: antiquewhite; */
+    
+}
+
+#image-fond {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    /* position: relative; */
+}
+
+#photo-profil {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 520px;
+    left: 150px;
+    border: 5px solid #4facfe;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#text-profil-utilisateur {
+    width: 21%;
+    height: 500px;
+    /* background-color: coral; */
+    margin-top: 5%;
+    margin-left: 50px;
+    float: left;
+}
+
+#Description-profil {
+    width: 100%;
+    height: 100px;
+    /* background-color: chartreuse; */
+    text-align: center;
+   
+}
+
+#Description-profil p {
+    padding: 2%;
+}
+
+#les-abonnées {
+    width: 100%;
+    height: 150px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-text-abonnées {
+    width: 30%;
+    height: 100px;
+    /* background-color: deeppink; */
+    text-align: center;
+}
+
+.image-abonnée {
+    width: 70px;
+    height: 50px;
+    background-color: darkgrey;
+}
+
+#text-profil-utilisateur p {
+    text-align: center;
+}
+
+#profil-abonnées {
+    width: 100%;
+    height: 100px;
+    /* background-color: lavender; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.image-profil-abonnée {
+    width: 50px;
+    height: 50px;
+    background-color: crimson;
+    border-radius: 50%;
+}
+
+#text-photos-enregistrement-groupe {
+    width: 75%;
+    height: 70px;
+    /* background-color: darkkhaki; */
+    margin-left: 450px;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+#text-photos-enregistrement-groupe p {
+    padding: 1%;
+    border: 2px solid gainsboro;
+    border-top: none;
+    box-shadow: 0px 11px 15px rgba(0,0,0,0.2);
+    transition: .3s;
+}
+
+#text-photos-enregistrement-groupe p:hover {
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+    transform: scale(1.05,1.05);
+}
+
+#text-photos-enregistrement-groupe button {
+    width: 200px;
+    height: 50px;
+    /* background-color: coral; */
+    color: white;
+    margin-left: 700px;
+    /* border-radius: 40px;  */
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #4facfe;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+#text-photos-enregistrement-groupe button:hover {
+    background-color: #0078d7;
+}
+
+#photo-profil-utilisateur {
+    width: 75%;
+    height: 790px;
+    /* background-color: greenyellow; */
+    margin-left: 453px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 400px 400px 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imaage-profil-utilisateur {
+    width: 350px;
+    height: 350px;
+    /* background-color: crimson; */
+    object-fit: cover;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    transition: .3s;
+}
+
+.imaage-profil-utilisateur:hover {
+    box-shadow: 0px 20px 40px rgba(0,0,0,0.4);
+    transform: scale(1.05,1.05);
+}
